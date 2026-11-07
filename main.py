@@ -1,4 +1,4 @@
-""" import random
+"""import random
 num = str(random.randint(1000,9999))
 guess = input("Введите четырёхзначное число: ")
 while guess != num:
@@ -18,7 +18,7 @@ while guess != num:
                     break
     print(f"Быки: {bulls}, Коровы: {cows}")
     guess = input("Попробуйте еще раз: ")
-print("Вы угадали") """
+print("Вы угадали")"""
 
 """ import math
 x = float(input("Введите точность: "))
