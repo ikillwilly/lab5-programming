@@ -57,3 +57,19 @@ while left <= right:
         right = mid - 1
 if found == False:
     print("Элемент не найден") """
+
+""" x = int(input("Введите натуральное число: "))
+divisors = []
+for i in range(1, x):
+    if x % i == 0:
+        divisors.append(i)
+if sum(divisors) == x:
+    print("Число совершенное")
+else:
+    print("Число несовершенное") """
+
+n = int(input("Введите N: "))
+s = 0
+for i in range(1, n + 1):
+    s += 1 / i
+print(f"Сумма ряда = {s}")
